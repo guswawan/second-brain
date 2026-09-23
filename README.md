@@ -127,6 +127,14 @@ See `.env.example` for the full list. Never commit `.env` — it's gitignored.
 | `ANVIA_LENS_*` | Anvia Lens observability (empty = disabled) |
 | `MCP_SERVER_COMMAND` | MCP server launch command (default: tsx mcp-server) |
 
+## Security Considerations
+
+We strive to maintain a secure codebase. All sensitive credentials are removed from Git history, and dependencies are regularly audited for known vulnerabilities. Please report any security concerns by opening an issue.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 ## Tests
 
 ```bash
